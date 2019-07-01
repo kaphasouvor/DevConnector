@@ -17,7 +17,7 @@ mongoose
 
 app.get('/', (req, res) => res.send('Hello World'));
 
-// Use routes
+// Use Routes
 app.use('/api/users', users);
 app.use('/api/profile', profile);
 app.use('/api/posts', posts);
