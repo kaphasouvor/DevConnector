@@ -1,4 +1,4 @@
-const mongoose = requires('mongoose');
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // create Schema
@@ -11,9 +11,12 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  avatar: {
+  password: {
     type: String,
     required: true
+  },
+  avatar: {
+    type: String,
   },
   date: {
     type: Date,
