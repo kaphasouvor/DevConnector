@@ -96,19 +96,19 @@ const ProfileSchema = new Schema({
   ],
   social: {
     youtube: {
-    type: Sting
+    type: String
   },
   twitter: {
-    type: Sting
+    type: String
   },
   facebook: {
-    type: Sting
+    type: String
   },
   linkin: {
-    type: Sting
+    type: String
   },
   instagram: {
-    type: Sting
+    type: String
   }
   },
   date: {
